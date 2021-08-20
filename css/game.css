@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+
+ html {
+    box-sizing: border-box;
+ }
+ :root {
+    font-size: 62.5%;
+}
+
+ body{ 
+   max-width:800px;
+   font-family: Lato;
+   font-family: helvetica, sans-serif;
+   background:white;
+   min-height: 100vh;
+   font-size: 1.6rem;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+
+ }
+
